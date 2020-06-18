@@ -86,18 +86,21 @@
 
 
 #ilink-navbar {
-    margin-left: 15%;
+    /* margin-left: 10%; */
     padding-top: 15px;
+    float: right;
 }
 #ilink-navbar ul li  {
     padding-left: 15px;
     padding-right: 15px;
+    
     font-weight: bold;
     color: black;
 }
 
 #ilink-navbar ul li a  {
     color: black !important;
+    width: max-content !important;
 }
 
 #ilink-navbar ul li.active a  {
