@@ -215,24 +215,50 @@ video {
 }
 
 /* THE SMARTEST WAY */
-#experience-section article h3 {
+#smartest-section article h3 {
     display: block;
     width: 70%;
     padding: auto;
    margin-left: 16%;
    margin-top: 16%;
+   text-align: 1.2rem;
 }
-#experience-section article h6 span {
+#smartest-section article h6 span {
     font-size: 19px !important;
     opacity: 0.8;
 }
 
-#experience-section article h3 span {
+#smartest-section article h3 span {
     font-size: 54px;
     /* line-height: 5px; */
     text-align: center;
 }
 
+#find-out-more2 {
+    margin-top: 2%;
+    /* margin-left: 15%; */
+    margin-bottom: 8%;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    width: 200px;
+    line-height: 30px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgba(133, 77, 255, 1);
+    border: solid transparent 1px;
+    align-items: center;
+    border-radius: 50px;
+    /* margin-bottom: 3rem; */
+}
+#find-out-more span {
+    line-height: 30px;
+}
+#find-out-more2:hover {
+    background-color:white !important;
+    color: #7046DA;
+}
+#smartest-section {
+    padding-bottom: 4rem;
+}
 
 
 /* survey scripting */
