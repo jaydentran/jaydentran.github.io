@@ -1,55 +1,3 @@
-
-#ilink-navbar {
-    margin-left: 15%;
-    padding-top: 15px;
-}
-#ilink-navbar ul li  {
-    padding-left: 15px;
-    padding-right: 15px;
-    font-weight: bold;
-    color: black;
-}
-
-#ilink-navbar ul li a  {
-    color: black !important;
-}
-
-#ilink-navbar ul li.active a  {
-    color: #8852FF !important;
-}
-#ilink-navbar ul li a:hover  {
-    color: #8852FF !important;
-}
-
-.jumbo {
-    background-color: #08133F;
-    color: white;
-}
-
-#jumbo-list {
-    list-style-type: none;
-}
-#find-out-more {
-    justify-content: center;
-    background-color: rgba(133, 77, 255, 1);
-    border: solid transparent 1px;
-    align-items: center;
-    border-radius: 50px;
-}
-
-
-/* survey scripting */
-.box-1 {
-    background-color: #AD8BF7;
-    color: white;
-}
-.box-3 {
-    background-color: #E8E8FF;
-}
-.box-4 {
-    background-color: #9A6FFF;
-}
-
 .font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#605E5E;} 
 .font_2 {font: normal normal bold 55px/1.4em raleway,sans-serif ;color:#2F2E2E;} 
 .font_3 {font: normal normal bold 55px/1.4em raleway,sans-serif ;color:#2F2E2E;} 
@@ -133,3 +81,169 @@
 .backcolor_34 {background-color: #37CC5F;}
 .color_35 {color: #227D3A;}
 .backcolor_35 {background-color: #227D3A;}
+
+/* ######################################## */
+
+
+#ilink-navbar {
+    margin-left: 15%;
+    padding-top: 15px;
+}
+#ilink-navbar ul li  {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+#ilink-navbar ul li a  {
+    color: black !important;
+}
+
+#ilink-navbar ul li.active a  {
+    color: #8852FF !important;
+}
+#ilink-navbar ul li a:hover  {
+    color: #8852FF !important;
+}
+
+/* EXPERIENCE */
+.video-container {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.1;
+}
+
+#experience-section article {
+    margin-top: 10%;
+}
+#experience-section article h3 {
+    font-size: 39px;
+    color: white !important;
+    padding-bottom: 4%;
+}
+#experience-section article span {
+    font-size: 22px;
+    color: white !important;
+    padding-bottom: 4%;
+}
+/* list */
+#experience-section article .row {
+    font-size: 22px;
+    line-height: 1.2em;
+    opacity: 0.8;
+}
+#experience-section article .row .col-lg-8 {
+    /* padding-top: 6%; */
+    padding-bottom: 10%;
+}
+
+#experience-section article .row .col-lg-8 li {
+    padding-top: 2%;
+}
+#experience-section h3 {
+    margin-top: 0rem !important;
+}
+#experience-section .helping {
+    display: block;
+    width:80%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+#find-out-more {
+    margin-top: 8%;
+    margin-left: 15%;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    width: 200px;
+    line-height: 30px;
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgba(133, 77, 255, 1);
+    border: solid transparent 1px;
+    align-items: center;
+    border-radius: 50px;
+    /* margin-bottom: 3rem; */
+}
+#find-out-more span {
+    line-height: 30px;
+}
+#find-out-more:hover {
+    background-color:white !important;
+    color: #7046DA;
+}
+.jumbo {
+    background-color: #08133F;
+    color: white;
+}
+
+#jumbo-list {
+    list-style-type: none;
+}
+
+/* STORY VISION  */
+#story-vision {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.icon-fa {
+    font-size: 50px;
+    color: #854DFF;
+    margin-bottom: 0.8rem;
+}
+
+#story-vision h5 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+#story-vision p {
+    width: 55%;
+    margin: auto;
+    /* margin-top: 1rem; */
+}
+
+/* THE SMARTEST WAY */
+#experience-section article h3 {
+    display: block;
+    width: 70%;
+    padding: auto;
+   margin-left: 16%;
+   margin-top: 16%;
+}
+#experience-section article h6 span {
+    font-size: 19px !important;
+    opacity: 0.8;
+}
+
+#experience-section article h3 span {
+    font-size: 54px;
+    /* line-height: 5px; */
+    text-align: center;
+}
+
+
+
+/* survey scripting */
+.box-1 {
+    background-color: #AD8BF7;
+    color: white;
+}
+.box-3 {
+    background-color: #E8E8FF;
+}
+.box-4 {
+    background-color: #9A6FFF;
+}
+
