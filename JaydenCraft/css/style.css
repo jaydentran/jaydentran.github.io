@@ -84,6 +84,14 @@
 
 /* ######################################## */
 
+header {
+    /* background-color: rgb(248, 248, 248);
+    border-bottom: 1px solid;
+    border-filter: blur(3px); */
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid;
+    box-shadow: 0px 2px 5px #888
+}
 
 #ilink-navbar {
     /* margin-left: 10%; */
@@ -111,6 +119,9 @@
 }
 
 /* EXPERIENCE */
+#after-header {
+    margin-top: 80px;
+}
 .video-container {
     height: auto;
     width: 100%;
@@ -269,6 +280,10 @@ video {
     background-color: #AD8BF7;
     color: white;
 }
+#survey-scripting .box-2 {
+    background-color: rgb(255, 255, 255);
+
+}
 #survey-scripting .box-3 {
     background-color: #E8E8FF;
 }
@@ -292,4 +307,22 @@ video {
 #survey-scripting p {
     font-family: sans-serif;
     font-size: 16.5px;
+}
+
+/* HOW WE HELP */
+#how-we-help {
+    background-color: #F2F7FF;
+}
+#how-we-help h4.title {
+    padding-top: 65px;
+}
+#how-we-help p {
+    width: 70%;
+    line-height: 2em;
+}
+
+/* secure */
+#how-we-help .secure .secure-image {
+    padding-top: 3em;
+    line-height: 2em;
 }
