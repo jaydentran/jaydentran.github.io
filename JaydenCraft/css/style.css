@@ -127,6 +127,10 @@ header {
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0;
+      margin-right: 0;
 }
 
 video {
@@ -326,3 +330,67 @@ video {
     padding-top: 3em;
     line-height: 2em;
 }
+
+/* FORM */
+
+#form-informatio {
+    position: relative;
+}
+
+#form-information {
+    height: 50rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#form-information img {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.1;
+}
+
+#form-information h5 {
+    color: #774AE6;
+}
+
+/* GOOGLE MAPS */
+.image-container {
+    height: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #5933AA;
+    margin-top: -10px;
+}
+.image-container .sydney {
+    
+    min-width: 100%;
+    /* height: 350px; */
+    /* width: -webkit-fill-available; */
+    /* min-height: 100%; */
+    position: absolute; 
+    /* top: 50%; */
+    /* left: 50%;*/
+    /* transform: translateX(-50%) translateY(-50%); */
+    opacity: 0.2; 
+  }
+
+  .image-container .sydney {
+    z-index: 3;
+    
+  }
+
+  footer {
+      background-color: #061551;
+      color: white;
+  }
+  .social {
+      text-align: 2rem;
+      font-size: 1.5rem;
+  }
