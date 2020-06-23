@@ -394,3 +394,19 @@ video {
       text-align: 2rem;
       font-size: 1.5rem;
   }
+
+
+
+/* MEDIA */
+@media screen and (max-width: 993px) {
+    #ilink-navbar {display: none;}
+    /* #main {margin-left: 216px;} */
+}
+@media screen and (max-width: 576px) {
+    #story-vision p { width: 70%; }
+    #story-vision i { margin-top: 0.5rem;}
+    #smartest-section article h3 {width: 90%; margin-left: 0; text-align: center; margin-left: 5%;}
+    #smartest-section article h3 span {font-size: 36px; line-height: 1rem;}
+    img#ISO-image {width: auto !important; height: 90px !important;}
+    p.font_8 {width: 80%;}
+}
