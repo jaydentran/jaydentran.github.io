@@ -146,7 +146,7 @@ video {
 #experience-section article {
     margin-top: 10%;
 }
-#experience-section article h3 {
+#experience-section article h3 span {
     font-size: 39px;
     color: white !important;
     padding-bottom: 4%;
