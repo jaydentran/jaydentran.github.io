@@ -408,5 +408,22 @@ video {
     #smartest-section article h3 {width: 90%; margin-left: 0; text-align: center; margin-left: 5%;}
     #smartest-section article h3 span {font-size: 36px; line-height: 1rem;}
     img#ISO-image {width: auto !important; height: 90px !important;}
-    p.font_8 {width: 80%;}
+    /* p.font_8 {width: 80%;} */
+    #survey-scripting section.mt-5 {width: 80% !important;}
+    /* how we help */
+    .image02 {display: none;}
+    .secure-para {padding-right: 0; padding-left: 1rem; margin-left: 20px;}
+    .fast-para {padding-right: 0; padding-left: 1rem; margin-left: 20px;}
+    .smart-para {padding-right: 0; padding-left: 1rem; margin-left: 20px !important;}
+    /* .mobile-view-part1 {text-align: center !important;} */
+
+    /* form */
+    /* .name-email { width: 80%;} */
+    #name-email div {margin-bottom: 10px;}
+    #form-information h5, #form-information h4 {margin-left: 5%;}
+    .form-group {margin-left: 5%; width: 90%;}
+    #form-information .submit {width: 70%;}
+    #form-information {padding-bottom: 6%;}
+    /* Google Maps section */
+    #google-maps {margin-top: -4%;}
 }
