@@ -175,8 +175,8 @@ video {
 }
 #experience-section .helping {
     display: block;
-    width:80%;
-    padding-left: 15%;
+    /* width:80%; */
+    /* padding-left: 15%; */
     padding-bottom: 5%;
 }
 #find-out-more {
