@@ -82,6 +82,22 @@
 .color_35 {color: #227D3A;}
 .backcolor_35 {background-color: #227D3A;}
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* ## FONT FACE ## */
+@font-face {
+    font-family: avenir;
+    src: url(FontsFree-Net-AvenirLTStd-Book.ttf);
+  }
+  @font-face {
+    font-family: raleway;
+    src: url(FontsFree-Net-Raleway-Regular.ttf);
+  }
+  @font-face {
+    font-family: ralewayBold;
+    src: url(FontsFree-Net-Raleway-Bold.ttf);
+    font-weight: 900;
+  }
+
 /* ######################################## */
 .row {
     margin-left: 0px !important;
@@ -154,6 +170,7 @@ video {
     font-size: 39px;
     color: white !important;
     padding-bottom: 4%;
+    font-family: ralewayBold;
 }
 #experience-section article span {
     font-size: 22px;
@@ -244,10 +261,12 @@ video {
    margin-left: 16%;
    margin-top: 16%;
    text-align: 1.2rem;
+   font-family: ralewayBold;
 }
 #smartest-section article h6 span {
     font-size: 19px !important;
     opacity: 0.8;
+    font-family: raleway;
 }
 
 #smartest-section article h3 span {
@@ -287,6 +306,7 @@ video {
 #survey-scripting .box-1 {
     background-color: #AD8BF7;
     color: white;
+    /* font-family: 'Raleway', sans-serif; */
 }
 #survey-scripting .box-2 {
     background-color: rgb(255, 255, 255);
@@ -299,6 +319,9 @@ video {
     background-color: #9A6FFF;
 }
 
+#survey-scripting p {
+    font-family: avenir !important;
+}
 /* icon  */
 #survey-scripting .icon-fa-14 {
     color: white;
@@ -320,6 +343,9 @@ video {
 /* HOW WE HELP */
 #how-we-help {
     background-color: #F2F7FF;
+}
+#how-we-help ul li {
+    color: #6c757d;
 }
 #how-we-help h4.title {
     padding-top: 65px;
