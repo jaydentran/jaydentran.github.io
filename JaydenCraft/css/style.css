@@ -384,11 +384,13 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 .image-container {
     height: auto;
     width: 100%;
+    /* height: 100%; */
     height: 100%;
     overflow: hidden;
     position: relative;
     background-color: #5933AA;
     margin-top: -10px;
+    margin-bottom: -10px;
 }
 .image-container .sydney {
     
@@ -405,6 +407,10 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 
   .image-container .sydney {
     z-index: 3;
+    
+  }
+  .image-container .mapouter {
+    z-index: 4;
     
   }
 
