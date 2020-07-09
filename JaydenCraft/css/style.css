@@ -207,14 +207,16 @@ video {
 #find-out-more {
     margin-top: 20px;
     transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-    width: 200px;
+    width: 180px;
     font-weight: bold;
     justify-content: center;
-    background-color: rgba(133, 77, 255, 1);
     border: solid transparent 1px;
     align-items: center;
     border-radius: 50px;
-    /* margin-bottom: 3rem; */
+    color: black;
+    background-color: #F9F9F9 !important;
+    display: flex;
+    padding: 3px;
 }
 #find-out-more span {
     line-height: 30px;
@@ -277,20 +279,22 @@ video {
 
 #find-out-more2 {
     margin-top: 2%;
+    cursor: pointer;
     /* margin-left: 15%; */
     margin-bottom: 8%;
     transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-    width: 200px;
+    width: 180px;
     line-height: 30px;
     font-weight: bold;
     justify-content: center;
-    background-color: rgba(133, 77, 255, 1);
     border: solid transparent 1px;
     align-items: center;
     border-radius: 50px;
-    /* margin-bottom: 3rem; */
+    color: black;
+    background-color: #F9F9F9 !important;
+    padding: 0;
 }
-#find-out-more span {
+#find-out-more2 span {
     line-height: 30px;
 }
 #find-out-more2:hover {
