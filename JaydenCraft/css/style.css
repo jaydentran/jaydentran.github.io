@@ -171,7 +171,7 @@ video {
     margin-top: 86px;
 }
 #experience-section article h3 span {
-    font-size: 39px;
+    font-size: 33px;
     color: white !important;
     padding-bottom: 4%;
     font-family: ralewayBold;
@@ -232,6 +232,8 @@ video {
 
 #jumbo-list {
     list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 /* STORY VISION  */
@@ -542,7 +544,7 @@ svg {
 }
 
 .introduction .introduction_heading {
-    line-height: 50px;
+    line-height: 30px;
     margin-bottom: 40px;
 }
 
@@ -617,6 +619,23 @@ svg {
     display: block;
 }
 
+.first_heading {
+    font-size: 70px;
+}
+
+.second_heading {
+    font-size: 50px;
+}
+
+.helping-list {
+    display: flex;
+    justify-content: center;
+}
+
+.helping-list-find {
+    margin-bottom: 70px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -627,10 +646,6 @@ html {
     /* #main {margin-left: 216px;} */
     .survey-scripting section {
         width: 80% !important;
-    }
-    .helping-list {
-        display: flex;
-        justify-content: center;
     }
 }
 
