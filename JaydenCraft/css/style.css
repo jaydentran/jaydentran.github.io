@@ -386,7 +386,7 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
     position: relative;
 }
 
-#form-information img {
+#smartest-section-background, #experience-section-background, #form-information img {
   min-width: 100%;
   min-height: 100%;
   position: absolute;
@@ -395,6 +395,17 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
   transform: translateX(-50%) translateY(-50%);
   opacity: 0.1;
   z-index: 1;
+}
+
+#smartest-section-background {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.1;
+    z-index: 1;
 }
 
 #form-information h5 {
