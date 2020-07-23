@@ -217,6 +217,8 @@ video {
     background-color: #F9F9F9 !important;
     display: flex;
     padding: 3px;
+    position: relative;
+    z-index: 10;
 }
 #find-out-more span {
     line-height: 30px;
@@ -295,6 +297,8 @@ video {
     color: black;
     background-color: #F9F9F9 !important;
     padding: 0;
+    position: relative;
+    z-index: 10;
 }
 #find-out-more2 span {
     line-height: 30px;
