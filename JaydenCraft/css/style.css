@@ -394,6 +394,7 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   opacity: 0.1;
+  z-index: 1;
 }
 
 #form-information h5 {
@@ -565,7 +566,7 @@ svg {
 }
 
 .secure_wrapper {
-    width: 800px;
+    width: 900px;
 }
 
 .form_wrapper {
@@ -608,13 +609,13 @@ svg {
 }
 
 .navigation .current {
-    background-color: white;
+    background-color: gray;
 }
 
 .navigation li a {
 	width: 14px;
 	height: 14px;
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 50%;
     display: block;
 }
@@ -638,6 +639,15 @@ svg {
 
 html {
     scroll-behavior: smooth;
+}
+
+.form_wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.secure-para {
+    padding-right: 0;
 }
 
 /* MEDIA */
@@ -689,7 +699,7 @@ html {
     #survey-scripting section.mt-5 {width: 80% !important;}
     /* how we help */
     .image02 {display: none;}
-    .secure-para {padding-right: 0; padding-left: 1rem; margin-left: 20px;}
+    .secure-para {padding-right: 0 !; padding-left: 1rem; margin-left: 20px;}
     .fast-para {padding-right: 0; padding-left: 1rem; margin-left: 20px;}
     .smart-para {padding-right: 0; padding-left: 1rem; margin-left: 20px !important;}
     /* .mobile-view-part1 {text-align: center !important;} */

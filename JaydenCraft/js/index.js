@@ -13,6 +13,7 @@ $(document).ready(function () {
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
+    console.log('--------------------')
     if (scrollPos < 400) {
         $(".navigation a").removeClass("current");
         $(".navigation a").first().addClass("current");
@@ -20,7 +21,8 @@ function onScroll(event){
         $(".navigation a").each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            console.log(currLink.attr("href"), scrollPos, refElement.position().top, refElement.position().top + refElement.height())
+            if (refElement.position().top <= scrollPos + 1 && refElement.position().top + refElement.outerHeight() > scrollPos + 1) {
                 $(".navigation a").removeClass("current");
                 currLink.addClass("current");
             }
