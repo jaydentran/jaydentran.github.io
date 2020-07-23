@@ -418,6 +418,9 @@ ol.carousel-indicators li, ol.carousel-indicators li.active {
 #form-information select:hover {
     background-color: #ae95ee;
 }
+#form-information select:hover option {
+    background-color: #fff;
+}
 #form-information textarea:hover {
     background-color: #ae95ee;
 }
@@ -620,13 +623,13 @@ svg {
 }
 
 .navigation .current {
-    background-color: gray;
+    background-color: #737C83;
 }
 
 .navigation li a {
 	width: 14px;
 	height: 14px;
-    border: 2px solid red;
+    border: 2px solid #737C83;
     border-radius: 50%;
     display: block;
 }
