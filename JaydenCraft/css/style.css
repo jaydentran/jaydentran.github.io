@@ -627,13 +627,13 @@ svg {
 }
 
 .navigation .current {
-    background-color: #737C83;
+    background-color: #e4e9ef;
 }
 
 .navigation li a {
 	width: 14px;
 	height: 14px;
-    border: 2px solid #737C83;
+    border: 2px solid #e4e9ef;
     border-radius: 50%;
     display: block;
 }
