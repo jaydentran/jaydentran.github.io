@@ -265,7 +265,7 @@ video {
 #smartest-section article h3 {
     display: block;
     padding: auto;
-   margin-top: 16%;
+   margin-top: 10%;
    text-align: 1.2rem;
    font-family: ralewayBold;
 }
@@ -276,7 +276,7 @@ video {
 }
 
 #smartest-section article h3 span {
-    font-size: 54px;
+    font-size: 45px;
     /* line-height: 5px; */
     text-align: center;
 }
@@ -308,7 +308,7 @@ video {
     color: #7046DA;
 }
 #smartest-section {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -574,7 +574,7 @@ svg {
 }
 
 .smartest_article {
-    width: 700px;
+    width: 560px;
     text-align: center;
 }
 
