@@ -171,7 +171,8 @@ video {
     margin-top: 86px;
 }
 #experience-section article h3 span {
-    font-size: 33px;
+    /* font-size: 33px; */
+    font-size: 25px;
     color: white !important;
     padding-bottom: 4%;
     font-family: ralewayBold;
@@ -233,6 +234,7 @@ video {
 }
 
 #jumbo-list {
+    line-height: 2em;
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
@@ -707,6 +709,9 @@ html {
         margin-top: 15px;
     }
     #form-information h5, #form-information h4 {margin-left: 5%;}
+    footer {
+        height: 150px !important;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -732,5 +737,8 @@ html {
     #google-maps {margin-top: -4%;}
     .gmap_canvas {
         width:300px;
+    }
+    footer {
+        height: 180px !important;
     }
 }
