@@ -756,3 +756,13 @@ html {
         width: 100% !important;
     }
 }
+
+
+/* Policy Page */
+.content-box {
+    font-size: 0.8rem;
+}
+
+.content-box li {
+    font-size: 0.8rem;
+}
