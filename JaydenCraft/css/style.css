@@ -679,6 +679,13 @@ html {
     .survey-scripting section {
         width: 80% !important;
     }
+    footer {
+        height: 200px !important;
+    }
+    .policy-div {
+        padding-top: 0 !important;
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -724,9 +731,9 @@ html {
     #survey-scripting section.mt-5 {width: 80% !important;}
     /* how we help */
     .image02 {display: none;}
-    .secure-para {padding-right: 0 !; padding-left: 1rem; margin-left: 20px;}
-    .fast-para {padding-right: 0; padding-left: 1rem; margin-left: 20px;}
-    .smart-para {padding-right: 0; padding-left: 1rem; margin-left: 20px !important;}
+    .secure-para {padding-right: 0 !important; padding-left: 1rem;}
+    .fast-para {padding-right: 0; padding-left: 1rem; }
+    .smart-para {padding-right: 0; padding-left: 1rem; }
     /* .mobile-view-part1 {text-align: center !important;} */
 
     /* form */
