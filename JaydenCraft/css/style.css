@@ -723,6 +723,9 @@ html {
     .policy-container {
         width: 80% !important;
     }
+    .navigation {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -752,8 +755,55 @@ html {
     footer {
         height: 180px !important;
     }
+
+    /* mobile optimisation */
     .policy-container {
         width: 100% !important;
+    }
+    .navigation {
+        display: none;
+    }
+    .vision-section, .industry-section {
+        margin-top: 35px;
+    }
+    #story-vision-section {
+        padding-bottom: 24px;
+    }
+    #survey-scripting section {
+        margin-top: 24px !important;
+    }
+    #how-we-help-section .image03 {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    #how-we-help-section .secure_wrapper {
+        margin-top: 0px !important;
+    }
+    #how-we-help-section h4.title {
+        padding-top: 40px !important;
+    }
+    #how-we-help-section article {
+        margin-top: 1rem !important;
+    }
+    #how-we-help-section .hide {
+        display: none;
+    }
+    #how-we-help-section .smart-image {
+        padding-top: 0px !important;
+        margin-top: 1rem !important;
+    }
+    .carousel-content h3 {
+        font-size: 30px;
+    }
+    .carousel-content .hide {
+        display: none;
+    }
+    .form_wrapper .address {
+        padding-top: 0px !important;
+        margin-top: 1rem !important;
+    }
+    .p-80-mobile {
+        width: 85%;
     }
 }
 
