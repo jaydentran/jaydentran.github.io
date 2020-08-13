@@ -686,6 +686,7 @@ html {
         padding-top: 0 !important;
         text-align: center !important;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -719,6 +720,9 @@ html {
     footer {
         height: 150px !important;
     }
+    .policy-container {
+        width: 80% !important;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -747,5 +751,8 @@ html {
     }
     footer {
         height: 180px !important;
+    }
+    .policy-container {
+        width: 100% !important;
     }
 }
