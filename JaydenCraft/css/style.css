@@ -731,9 +731,10 @@ html {
 @media screen and (max-width: 576px) {
     #story-vision p { width: 70%; }
     #story-vision i { margin-top: 0.5rem;}
-    #smartest-section article h3 {width: 90%; margin-left: 0; text-align: center; margin-left: 5%;}
+    #smartest-section article h3 {width: 80%; margin-left: 0; text-align: center; margin-left: 5%;}
     #smartest-section article h3 span {font-size: 36px; line-height: 1rem;}
-    img#ISO-image {width: auto !important; height: 90px !important;}
+    /* img#ISO-image {width: auto !important; height: 90px !important;} */
+    img#ISO-image {height: 90px !important;}
     /* p.font_8 {width: 80%;} */
     #survey-scripting section.mt-5 {width: 80% !important;}
     /* how we help */
@@ -809,7 +810,8 @@ html {
         height:300px !important;
     }
     #ISO-image {
-        margin-left: 0 !important;
+        /* margin-left: 0 !important; */
+        width: 80% !important;
     }
     .text-banner {
         margin-top: 1.3rem !important;
