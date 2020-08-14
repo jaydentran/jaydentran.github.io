@@ -803,7 +803,7 @@ html {
         margin-top: 1rem !important;
     }
     .p-80-mobile {
-        width: 85%;
+        width: 85% !important;
     }
     .carousel-inner {
         height:300px !important;
@@ -813,6 +813,12 @@ html {
     }
     .text-banner {
         margin-top: 1.3rem !important;
+    }
+
+    /* how we help Section */
+    .image03 img {
+        width: 350px !important;
+        height: 262.5px !important;
     }
 }
 
