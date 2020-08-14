@@ -811,6 +811,9 @@ html {
     #ISO-image {
         margin-left: 0 !important;
     }
+    .text-banner {
+        margin-top: 1.3rem !important;
+    }
 }
 
 
