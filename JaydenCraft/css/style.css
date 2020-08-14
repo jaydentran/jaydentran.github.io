@@ -734,7 +734,7 @@ html {
     #smartest-section article h3 {width: 80%; margin-left: 0; text-align: center; margin-left: 5%;}
     #smartest-section article h3 span {font-size: 36px; line-height: 1rem;}
     /* img#ISO-image {width: auto !important; height: 90px !important;} */
-    img#ISO-image {width: 80% !important; height: 90px !important; margin-left:2% !important}
+    img#ISO-image {width: 80% !important; height: 90px !important; margin-left:0% !important}
     /* p.font_8 {width: 80%;} */
     #survey-scripting section.mt-5 {width: 80% !important;}
     /* how we help */
