@@ -805,6 +805,12 @@ html {
     .p-80-mobile {
         width: 85%;
     }
+    .carousel-inner {
+        height:300px !important;
+    }
+    #ISO-image {
+        margin-left: 0 !important;
+    }
 }
 
 
