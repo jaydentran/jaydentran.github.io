@@ -672,6 +672,15 @@ html {
     padding-right: 0;
 }
 
+.section-anchor:before {
+    display: block; 
+    content: " "; 
+    margin-top: -83px; 
+    height: 83px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
 /* MEDIA */
 @media screen and (max-width: 993px) {
     #ilink-navbar {display: none;}
