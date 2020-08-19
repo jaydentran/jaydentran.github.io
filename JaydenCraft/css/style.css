@@ -822,6 +822,12 @@ html {
         width: 350px !important;
         height: 262.5px !important;
     }
+
+    /* form */
+    .work-with-the {
+        padding-left: 1.5rem !important;
+    }
+
 }
 
 
@@ -836,3 +842,11 @@ html {
 .policy-container h1 {
     font-size: 20px;
 }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    /* visibility: hidden; */
+}
+
