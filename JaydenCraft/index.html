@@ -119,8 +119,9 @@
                         <h5 class="font_5" style="text-align:center;">Our Story</h5>
                         <p class="font_8" style="line-height:1.7em; text-align:center;">Founded in 2001, i-Link Research Solutions is an Australian owned independent online field and data collection company.&nbsp;</p>
                         <br>
-                        <p class="font_8" style="line-height:1.7em; text-align:center;">Headquartered from Sydney, Australia, we have full industry accreditations&nbsp;and global scalability. Experience our service;&nbsp;experience the <span style="white-space: nowrap;">i-Link</span> edge.</p>
-                        <!-- <br><p class="font_8" style="line-height:1.7em; text-align:center;">Helping researchers and marketers collect quality data to make decisions that matter&nbsp;</p> -->
+                        <!-- <p class="font_8" style="line-height:1.7em; text-align:center;">Headquartered from Sydney, Australia, we have full industry accreditations&nbsp;and global scalability. Experience our service;&nbsp;experience the <span style="white-space: nowrap;">i-Link</span> edge.</p> -->
+                        <p class="font_8" style="line-height:1.7em; text-align:center;">Headquartered from Sydney, Australia, we have full industry accreditations&nbsp;and global scalability.</p>
+                        <br><p class="font_8" style="line-height:1.7em; text-align:center;">i-Link is a world leader in online research services.&nbsp;</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 text-center vision-section">
                         <!-- <i class="fa fa-circle-o icon-fa" aria-hidden="true"></i> -->
@@ -429,37 +430,37 @@
                     <h4 class="font_4 color_11 pb-3" style="font-size: 38px; padding-bottom:0px !important;">The smartest way to collect your data!</h4>
                     <!-- <h3 class="font_3" style="line-height:0.9em; text-align:center;"><span class="color_11">The smartest way to collect your data</span></h3> -->
                         <h6 class="font_6 mt-4 work-with-the" style="text-align:left;"><span class="color_11">Work with the leaders in Online Research</span></h6>
-                    <form class="mt-4">
-                        <div class="form-group">
-                            
-                            <div id="name-email" class="row">
-                                <div class="col-md-6" style="padding-left:0px">
-                                <input type="text" class="form-control" placeholder="Name">
+                        <form class="mt-4" action="mailer.php" method="post">
+                            <div class="form-group">
+                                
+                                <div id="name-email" class="row">
+                                    <div class="col-md-6" style="padding-left:0px">
+                                    <input type="text" class="form-control" placeholder="Name" name="name">
+                                    </div>
+                                    <div class="col-md-6 col-email">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="email">
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-email">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                
+                                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="sel1">How can we help you today?</label>
+                                <select class="form-control w-50" id="sel1" name="option">   
+                                    <option selected value default style="display: none" disabled>Choose an option</option>
+                                    <option value="Schedule a Product Demo">Schedule a Product Demo</option>
+                                    <option value="Submit a Brief">Submit a Brief</option>
+                                    <option value="Discuss a Research Project">Discuss a Research Project</option>
+                                    <option value="More Information - Other">More Information - Other</option>
+                                </select>
                                 </div>
+                            <div class="form-group">
+                                <!-- <label for="comment">Comment:</label> -->
+                                <textarea class="form-control" rows="6" id="comment" placeholder="Type your message here" name="message"></textarea>
                             </div>
-                            
-                            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                        </div>
-                        <div class="form-group">
-                            <label for="sel1">How can we help you today?</label>
-                            <select class="form-control w-50" id="sel1">   
-                                <option selected value default style="display: none" disabled>Choose an option</option>
-                                <option value="Schedule a Product Demo">Schedule a Product Demo</option>
-                                <option value="Submit a Brief">Submit a Brief</option>
-                                <option value="Discuss a Research Project">Discuss a Research Project</option>
-                                <option value="More Information - Other">More Information - Other</option>
-                            </select>
+                            <div class="submit submit_wrapper mb-5">
+                                <button id="find-out-more" type="submit" class="btn btn-secondary" style="display: block; width: 350px;"><span class="text" style="display: block;"></span>Submit</span></button>
                             </div>
-                        <div class="form-group">
-                            <!-- <label for="comment">Comment:</label> -->
-                            <textarea class="form-control" rows="6" id="comment" placeholder="Type your message here"></textarea>
-                        </div>
-                        <div class="submit submit_wrapper mb-5">
-                            <a id="find-out-more" href="" class="btn btn-secondary" style="display: block; width: 350px;"><span class="text" style="display: block;"></span>Submit</span></a>
-                        </div>
                         </form>
                         <div class="address row mt-5 pt-5 pb-4">
                             <div class="col-md-4 col-12 color_11 font_8" style="line-height:2em; text-align:center; position: relative;">
