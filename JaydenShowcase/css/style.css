@@ -1220,7 +1220,7 @@ body {
     transition: all .8s; }
   .btn-curve.btn-lit {
     border-color: #fff;
-    color: #fff; }
+    color: rgb(165, 165, 165); }
     .btn-curve.btn-lit:hover span {
       color: #8852FF; }
     .btn-curve.btn-lit:after {
