@@ -28,13 +28,17 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
 
     <!-- Core Style Css -->
+    <link rel="stylesheet" href="jayden-css/style.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    
 </head>
 
 <body>
@@ -42,8 +46,8 @@
 
     <!-- ==================== Start Loading ==================== -->
 
-    <div id="preloader">
-    </div>
+    <!-- <div id="preloader">
+    </div> -->
 
     <!-- ==================== End Loading ==================== -->
 
@@ -51,11 +55,11 @@
 
     <!-- ==================== Start progress-scroll-button ==================== -->
 
-    <div class="progress-wrap cursor-pointer">
+    <!-- <div class="progress-wrap cursor-pointer">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
-    </div>
+    </div> -->
 
     <!-- ==================== End progress-scroll-button ==================== -->
 
@@ -71,73 +75,44 @@
 
 
     <!-- ==================== Start Navbar ==================== -->
-
-    <nav class="navbar change navbar-expand-lg">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="./jayden-img/logo-top.png" alt="logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
-            </button>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                        </div>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Showcases</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="showcase.html">Full Screen</a>
-                            <a class="dropdown-item" href="showcase2.html">Creative Carousel</a>
-                            <a class="dropdown-item" href="showcase3.html">Radius Carousel</a>
-                            <a class="dropdown-item" href="showcase4.html">Columns Carousel</a>
-                        </div>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Jayden</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                            <a class="dropdown-item" href="#">Jayden</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
-                    </div>
-                </div>
+    <div class="fixed-top header-ne" id="#topnav">
+        <div class="row">
+            <!-- <div class="col-6"></div> -->
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-1 mb-1">
+                <a href="index.html"><img id="logo-top" style="object-position:50% 50%;width:316px;height:73px;object-fit:cover" alt=""
+                    data-type="image" itemprop="image" src="./jayden-img/logo-top.png"></a>
             </div>
+            <!-- <div class="col"></div>
+            <div class="col"></div> -->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <nav id="ilink-navbar" class="navbar navbar-expand-lg ">
+
+                    <div>
+                        <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html#experience-section">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#story-vision-section">About </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#explore-section">What we do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#how-we-help-section">How we help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#form-information-section">Get in touch</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav> 
+            </div>
+
         </div>
-    </nav>
+    </div>
+
 
     <!-- ==================== End Navbar ==================== -->
 
@@ -337,10 +312,97 @@
         </section>
 
         <!-- ==================== End Services ==================== -->
+        <!-- ==================== Start call-to-action ==================== -->
+<!-- 
+        <section class="call-action section-padding bg-img" data-background="img/pattern.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-9">
+                        <div class="content sm-mb30">
+                            <h6 class="wow" data-splitting>Let’s Talk</h6>
+                            <h2 class="wow custom-font" data-splitting>about your <b>next project</b>.</h2>
+                        </div>
+                    </div>
 
+                    <div class="col-md-4 col-lg-3 valign">
+                        <a href="contact.html" class="btn-curve btn-blc wow fadeInUp" data-wow-delay=".5s"><span>Get In
+                                Touch</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <!-- ==================== End call-to-action ==================== -->
+
+        <!-- ==================== View Demostrations Form ==================== -->
+
+        <section class="contact section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form md-mb50">
+
+                            <h4 class="extra-title mb-50">View Our Demostrations.</h4>
+
+                            <form id="contact-form" method="post" action="contact.php">
+
+                                <div class="messages"></div>
+
+                                <div class="controls">
+
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" placeholder="Name"
+                                            required="required">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" placeholder="Email"
+                                            required="required">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
+                                            required="required"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn-curve btn-lit"><span>Send Message</span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+             
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== View Demostrations Form ==================== -->
+
+        <footer class="text-center row" style="height: 120px;">
+            <div class="left-side col-lg-4"></div>
+            <div class="left-side col-lg-4">
+                <div class="social pt-4 pb-2">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+                <div class="copyright" style="color: #854DFF;">© 2020 by i-Link Research Solutions</div>
+            </div>
+            
+            <div class="left-side col-lg-4 pt-5 policy-div" style="text-align: left;">
+                <a href="./policy.html" style="color: white;">View i-Link's Privacy Policy</a>    
+            <!-- <a href="./policy.html" style="color: white;">View i-Link's Privacy Policy</a>    
+                <a href="./policy.html" style="color: white;">View i-Link's Privacy Policy</a>     -->
+            </div>
+           
+        </footer>
 
 
     </div>
+
 
 
 
