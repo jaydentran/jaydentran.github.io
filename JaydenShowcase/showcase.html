@@ -38,7 +38,11 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="jayden-css/style.css" />
     <link rel="stylesheet" href="css/style.css" />
-    
+    <style>
+        #i-best:hover{
+            color: #9768FF;
+        }
+    </style>
 </head>
 
 <body>
@@ -137,10 +141,10 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft" data-wow-delay=".3s"
                         data-background="./jayden-img/meeting-1.jpg">
-                        <h4 class="custom-font">Best Of <br> Our Features</h4>
+                        <h4 class="custom-font" id="i-best">Best Of <br> Our Features</h4>
                         <a href="https://iquestion.i-link.com.au/Q444824/" class="btn-curve btn-bord btn-lit mt-40"       
                             target="popup" 
-                            onclick="window.open('https://iquestion.i-link.com.au/Q444824/','popup','width=1000,height=1000'); return false;">
+                            onclick="window.open('https://iquestion.i-link.com.au/Q444824/','popup','width=1600,height=800'); return false;">
                             See All Questions                         
                             <!-- <span>See All Questions</span> -->
                         
@@ -174,7 +178,7 @@
     </br>
     </br>
     </br>
-    <div id="middle-part-1">
+    <div id="middle-part-0">
         <div class="about ">
             <div id="advanced-functionality" class="container">
                 <h5 class="main-title wow" data-splitting>Advanced Functionality</h5>
@@ -356,6 +360,21 @@
         </div>
     </div>
 
+    <div id="middle-part-1">
+        <div class="about">
+            <div class="container">
+                <h5>i-question</h5>
+                <div class="row">
+                    <div class="col-lg-3">
+ 
+                    </div>
+                    <div class="col-lg-7 offset-lg-1 valign">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="middle-part-2">
         <div class="about">
             <div class="container">
@@ -467,9 +486,18 @@
     <script src="js/scripts.js"></script>
     <script>
         // jQuery Jayden
+        $("#middle-part-1").hide();
         $("#middle-part-2").hide();
         $("#middle-part-3").hide();
+        
+        $("#i-best").click(function(){
+            $("#middle-part-0").show();
+            $("#middle-part-1").hide();
+            $("#middle-part-2").hide();
+            $("#middle-part-3").hide();
+        });
         $("#i-ques").click(function(){
+            $("#middle-part-0").hide();
             $("#middle-part-1").show();
             $("#middle-part-2").hide();
             $("#middle-part-3").hide();
