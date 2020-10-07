@@ -1318,7 +1318,7 @@ body {
         -webkit-animation: fadeInUp 0.5s cubic-bezier(0.3, 0, 0.7, 1) both;
         animation: fadeInUp 0.5s cubic-bezier(0.3, 0, 0.7, 1) both;
         -webkit-animation-delay: calc(60ms * var(--char-index));
-        animation-delay: calc(60ms * var(--char-index)); }
+        animation-delay: calc(400ms * var(--char-index)); }
     .slider .parallax-slider .swiper-slide-active .caption .thin,
     .slider .parallax-slider .swiper-slide-active .caption .btn-curve,
     .slider .parallax-slider .swiper-slide-active .caption p {
@@ -4720,7 +4720,3 @@ body {
         color: #75dab4; }
 
 /* ====================== [ End Footer ] ====================== */
-.img-mons-2 {
-  width: 180%;
-  /* margin-right: 1rem; */
-}
