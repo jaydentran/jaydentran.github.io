@@ -800,8 +800,8 @@ a, span {
 /* ====================== [ End Preloader ] ====================== */
 /* ====================== [ Start Text Animation & Images ] ====================== */
 .splitting.animated .char {
-  -webkit-animation: fadeInUp 0.4s cubic-bezier(0.3, 0, 0.7, 1) both;
-  animation: fadeInUp 0.4s cubic-bezier(0.3, 0, 0.7, 1) both;
+  -webkit-animation: fadeInUp 0.2s cubic-bezier(0.3, 0, 0.7, 1) both;
+  animation: fadeInUp 0.2s cubic-bezier(0.3, 0, 0.7, 1) both;
   -webkit-animation-delay: calc(30ms * var(--char-index));
   animation-delay: calc(30ms * var(--char-index)); }
 
