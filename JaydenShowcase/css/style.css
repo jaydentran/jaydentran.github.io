@@ -1423,11 +1423,11 @@ a, span {
         border-radius: 50%; }
       .slider .setone.setwo .next-ctrl {
         position: absolute;
-        top: 50%;
+        top: 28%;
         right: 30px; }
       .slider .setone.setwo .prev-ctrl {
         position: absolute;
-        top: 50%;
+        top: 28%;
         left: 30px; }
   .slider .txt-botm {
     position: absolute;
@@ -1495,7 +1495,8 @@ a, span {
         font-size: 12px;
         font-weight: 100; }
     .slider .swiper-pagination-fraction.top.botm {
-      top: auto;
+      /* top: auto; */
+      top: 193px;
       bottom: 40px;
       right: 40px; }
   .slider .swiper-pagination-fraction.steps {
