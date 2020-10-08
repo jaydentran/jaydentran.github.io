@@ -991,6 +991,7 @@ a, span {
 [data-overlay-dark] .container,
 [data-overlay-light] .container {
   position: relative;
+  top: 200px;
   z-index: 2; }
 
 [data-overlay-dark]:before,
@@ -1296,7 +1297,8 @@ a, span {
       position: relative;
       overflow: hidden;
       width: 100%;
-      min-height: 100vh;
+      height: 500px;
+      /* min-height: 100vh; */
       padding-bottom: 50px; }
       .slider .parallax-slider .swiper-slide .bg-img {
         position: absolute;
