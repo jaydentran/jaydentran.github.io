@@ -1348,7 +1348,7 @@ a, span {
       .slider .parallax-slider .caption .thin span {
         color: #8852FF; }
     .slider .parallax-slider .caption h1 {
-      font-size: 65px;
+      font-size: 57px;
       font-weight: 700;
       letter-spacing: 4px;
       color: #fff;
@@ -1362,7 +1362,7 @@ a, span {
  visibility .5s; }
     .slider .parallax-slider .caption p {
       color: #eee;
-      margin-top: 15px;
+      margin-top: 8px;
       opacity: 0;
       -webkit-transform: translateY(20px);
       -ms-transform: translateY(20px);
@@ -2640,6 +2640,15 @@ a, span {
       .min-area .content ul.feat li p {
         font-size: 13px;
         padding-left: 45px; }
+
+.i-image-wrapper {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.i-image-wrapper img {
+  width: 80%;
+}
 
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start brands ] ====================== */
@@ -4224,6 +4233,9 @@ a, span {
 
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+  .i-image-wrapper {
+    padding-top: 0 !important;
+  }
   .img-mons-large-screen {
     visibility: hidden;
     display: none;
