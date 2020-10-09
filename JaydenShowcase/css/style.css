@@ -2479,8 +2479,12 @@ a, span {
       margin-bottom: 30px; }
     .services .item-box h6 {
       line-height: 1.8;
-      text-transform: capitalize;
+      color: #6610f2;
+      /* text-transform: capitalize; */
       margin-bottom: 10px; }
+    .services .item-box h6:hover {
+      color: #d540e2;
+    }
   .services .rone > div {
     position: relative; }
     .services .rone > div:nth-of-type(2) {
