@@ -4779,3 +4779,9 @@ a, span {
 .heading-violet {
   color: #5937a1;
 }
+.wowy {
+  padding-bottom: 10px;
+}
+.wowy:hover {
+  color: #8852FF;
+}
