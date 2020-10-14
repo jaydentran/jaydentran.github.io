@@ -4819,3 +4819,7 @@ a, span {
 .wowy:hover {
   color: #8852FF;
 }
+
+#i-ques:hover, #i-disc:hover, #i-focu:hover {
+  background-color:rgba(175, 139, 235, 0.2)
+}
