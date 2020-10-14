@@ -2264,7 +2264,7 @@ a, span {
   margin-bottom: 30px; }
 
 .about .img-mons .img1, .about .img-mons .img2, .about .img-mons .img3 {
-  height: 250px;
+  height: 100%;
   border-radius: 10px;
   overflow: hidden; }
   .about .img-mons .img1 img, .about .img-mons .img2 img, .about .img-mons .img3 img {
@@ -4434,6 +4434,18 @@ a, span {
     font-size: 40px; } }
 
 @media screen and (max-width: 767px) {
+  .half-bg {
+    height: 140px;
+  }
+  .services .item-box {
+    padding: 30px 30px;
+  }
+  .about-row {
+    margin-bottom: 0 !important;
+  }
+  .hide-break-767px {
+    display: none;
+  }
   .sm-mb10 {
     margin-bottom: 10px; }
   .sm-mb20 {
@@ -4600,6 +4612,28 @@ a, span {
 @media screen and (max-width: 480px) {
   .parallax-slider .swiper-slide-active .caption .btn-curve, .slider .parallax-slider .swiper-slide-active .caption p {
     line-height: 22px;
+  }
+  .main-content .about:first-child {
+    padding-top: 20px !important;
+  }
+  .main-content .about {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .main-content .about .content {
+    margin-bottom: 0;
+  }
+  .img-mons {
+    margin-bottom: 10px !important;
+  }
+  .half-bg {
+    height: 110px;
+  }
+  .sec-head {
+    margin: 40px auto 20px;
+  }
+  .hide-break-480px {
+    display: none;
   }
   .hamenu .cont-info {
     display: none; }

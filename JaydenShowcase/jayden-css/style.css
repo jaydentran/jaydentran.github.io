@@ -688,9 +688,6 @@ html {
     .survey-scripting section {
         width: 80% !important;
     }
-    footer {
-        height: 200px !important;
-    }
     .policy-div {
         padding-top: 0 !important;
         text-align: center !important;
@@ -726,9 +723,6 @@ html {
         margin-top: 15px;
     }
     #form-information h5, #form-information h4 {margin-left: 5%;}
-    footer {
-        height: 150px !important;
-    }
     .policy-container {
         width: 80% !important;
     }
@@ -765,9 +759,6 @@ html {
     #google-maps {margin-top: -4%;}
     .gmap_canvas {
         width:300px;
-    }
-    footer {
-        height: 180px !important;
     }
 
     /* mobile optimisation */
